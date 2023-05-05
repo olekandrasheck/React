@@ -1,0 +1,54 @@
+.wrapper-input {
+  background-color: rgb(153, 23, 153);
+  height: 100px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+.inputForm1 {
+  background-color: white;
+  height: 40%;
+  width: 30%;
+  border: none;
+  border-radius: 20px;
+  border-color: rgb(60, 6, 60);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+}
+.pagination-card {
+  width: 45%;
+  background-color: rgb(153, 23, 153);
+  color: white;
+  gap: 10px;
+}
+.pagination-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.btn {
+  border-radius: 20px;
+  border-color: rgb(153, 23, 153);
+  background-color: rgb(187, 145, 187);
+  color: white;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+}
+.number-input {
+  width: 50px;
+  margin-right: 10px;
+}
+label {
+  color: rgb(153, 23, 153);
+  font-weight: bold;
+  margin-left: 10px;
+}
