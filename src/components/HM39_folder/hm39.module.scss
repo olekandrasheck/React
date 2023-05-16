@@ -1,0 +1,39 @@
+.inputForm39 {
+  background-color: rgb(54, 2, 54);
+
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin: 20px 0;
+}
+.headName {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.inputStyle {
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  appearance: none;
+  outline-color: #af7eeb;
+}
+.submitButton {
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #e6de02;
+  color: grey;
+  font-weight: bold;
+  border: none;
+  &:hover {
+    background-color: #999411;
+    color: white;
+  }
+}
+.error {
+  color: #990917;
+  font-weight: bolder;
+}

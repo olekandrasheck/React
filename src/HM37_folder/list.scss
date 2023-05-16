@@ -1,0 +1,89 @@
+.wrapper-todo {
+  background-color: #e3e9ff;
+}
+.header-todo {
+  color: white;
+  background-color: rgb(54, 2, 54);
+  width: 1000px;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.wrapper-tasks {
+  margin: 20px auto;
+  background-color: white;
+  color: grey;
+  width: 1000px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.icon {
+  color: rgb(54, 2, 54);
+  border-color: rgb(54, 2, 54);
+}
+.icon-btn {
+  background-color: white;
+  border-color: rgb(54, 2, 54);
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-decoration: none;
+  .do {
+    color: rgb(54, 2, 54);
+  }
+}
+.active {
+  text-decoration: line-through;
+  text-decoration-color: rgb(10, 70, 10);
+  text-decoration-thickness: 3px;
+
+  .do {
+    color: rgb(10, 70, 10);
+  }
+  .circle {
+    background-color: rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
+  }
+}
+.task {
+  color: grey;
+  font-weight: 400;
+}
+.btn-add {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  background-color: rgb(54, 2, 54);
+  border-color: #7c26e6;
+  color: white;
+  font-weight: 700;
+  height: 50px;
+  box-shadow: none;
+  &:hover {
+    background-color: rgb(10, 70, 10);
+  }
+}
+.input-todo {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: grey;
+  height: 44px;
+  border-color: #7c26e6;
+  border-left: none;
+  appearance: none;
+  outline-color: rgb(54, 2, 54);
+  box-shadow: none;
+}
+.circle {
+  color: rgb(54, 2, 54);
+  margin-right: 10px;
+}
+p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(54, 2, 54);
+}

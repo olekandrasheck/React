@@ -1,0 +1,39 @@
+.form-wrapper {
+  background-color: rgb(54, 2, 54);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin: 20px 0;
+}
+.header {
+  color: white;
+}
+.labelName {
+  color: white;
+  font-size: 18px;
+}
+.input {
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  appearance: none;
+  outline-color: #af7eeb;
+}
+.errorMessage {
+  color: #f1d827;
+}
+.submit {
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #afae9e;
+  color: #544c4c;
+  font-weight: bold;
+  border: none;
+  &:valid {
+    background-color: #f1d827;
+    color: black;
+  }
+}
