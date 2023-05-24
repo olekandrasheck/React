@@ -1,0 +1,21 @@
+.label {
+  color: rgb(68, 63, 63);
+  padding-left: 20px;
+}
+.error {
+  color: red;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.wrapper-item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wrapper {
+  width: 350px;
+  margin: 0 auto;
+}
